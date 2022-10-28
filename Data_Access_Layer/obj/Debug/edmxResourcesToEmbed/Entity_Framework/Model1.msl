@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChatAppModelStoreContainer" CdmEntityContainer="ChatAppEntities">
+    <EntitySetMapping Name="Chats">
+      <EntityTypeMapping TypeName="ChatAppModel.Chat">
+        <MappingFragment StoreEntitySet="Chats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserOneId" ColumnName="UserOneId" />
+          <ScalarProperty Name="UserTwoId" ColumnName="UserTwoId" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conversations">
+      <EntityTypeMapping TypeName="ChatAppModel.Conversation">
+        <MappingFragment StoreEntitySet="Conversations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ChatAppModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
