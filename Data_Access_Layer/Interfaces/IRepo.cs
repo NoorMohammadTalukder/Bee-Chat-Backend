@@ -13,6 +13,7 @@ namespace Data_Access_Layer.Interfaces
         bool Create(ClassName obj);
         bool Update(ClassName obj);
         bool Delete(IdType id);
+        bool Login(ClassName obj);
 
     }
 }

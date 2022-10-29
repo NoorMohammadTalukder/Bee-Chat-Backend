@@ -18,6 +18,7 @@
     <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="Time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="UserId" Type="Int32" />
+    <Property Name="UserId2" Type="Int32" />
   </EntityType>
   <EntityType Name="User">
     <Key>

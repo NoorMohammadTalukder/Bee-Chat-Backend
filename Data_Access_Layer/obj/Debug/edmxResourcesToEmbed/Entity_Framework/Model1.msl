@@ -19,6 +19,7 @@
           <ScalarProperty Name="Text" ColumnName="Text" />
           <ScalarProperty Name="Time" ColumnName="Time" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserId2" ColumnName="UserId2" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace Data_Access_Layer.Repos
 {
-    public class UserRepo:IRepo<User,int>
+    public class ConversationRepo : IRepo<Conversation, int>
     {
         ChatAppEntities db;
 
-        public UserRepo(ChatAppEntities db)
+        public ConversationRepo(ChatAppEntities db)
         {
             this.db = db;
         }
 
-        public bool Create(User obj)
+        public bool Create(Conversation obj)
         {
             try
             {
-                db.Users.Add(obj);
+                db.Conversations.Add(obj);
                 db.SaveChanges();
                 return true;
             }
@@ -36,36 +36,29 @@ namespace Data_Access_Layer.Repos
             throw new NotImplementedException();
         }
 
-        public List<User> Get()
+        public List<Conversation> Get()
         {
-            
-             return db.Users.ToList();
-            
-
+            return db.Conversations.ToList();
         }
 
-        public User GetId(int id)
+        public Conversation GetId(int id)
         {
             throw new NotImplementedException();
         }
 
-        public bool Update(User obj)
+        public bool Login(Conversation obj)
         {
             throw new NotImplementedException();
         }
 
-
-        public bool Login(User obj)
+        public bool Update(Conversation obj)
         {
-            var x = db.Users.FirstOrDefault(e => e.Email == obj.Email);
-            if (x != null) {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-                
+            throw new NotImplementedException();
+        }
+
+        public List<Conversation> Messages()
+        {
+            throw new NotImplementedException();
         }
     }
 }

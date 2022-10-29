@@ -17,6 +17,11 @@ namespace Data_Access_Layer
         {
 
             return new UserRepo(db);
+        } 
+        public static IRepo<Conversation, int> GetConversationDataAccess()
+        {
+
+            return new ConversationRepo(db);
         }
     }
 

@@ -21,3 +21,26 @@ C:\Users\sadim\source\repos\Business_Logic_Layer\bin\Debug\Newtonsoft.Json.xml
 C:\Users\sadim\source\repos\Business_Logic_Layer\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\sadim\source\repos\Business_Logic_Layer\bin\Debug\System.Web.Http.xml
 C:\Users\sadim\source\repos\Business_Logic_Layer\bin\Debug\System.Web.Http.Cors.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Business_Logic_Layer.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Business_Logic_Layer.pdb
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\AutoMapper.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Data_Access_Layer.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Newtonsoft.Json.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Net.Http.Formatting.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Web.Cors.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Web.Http.Cors.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Web.Http.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\EntityFramework.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Data_Access_Layer.pdb
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Data_Access_Layer.dll.config
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\AutoMapper.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\Newtonsoft.Json.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Net.Http.Formatting.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Web.Http.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\System.Web.Http.Cors.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\bin\Debug\EntityFramework.xml
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.csproj.AssemblyReference.cache
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.csproj.CoreCompileInputs.cache
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.csproj.CopyComplete
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.dll
+D:\Advance Progamming with .net\Bee Chat\Business_Logic_Layer\obj\Debug\Business_Logic_Layer.pdb
