@@ -63,6 +63,7 @@
     <Compile Include="BOs\UserModel.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -23,6 +23,11 @@ namespace Data_Access_Layer
 
             return new ConversationRepo(db);
         }
+        public static IAuth<User> GetAuthDataAccess()
+        {
+
+            return new AuthRepo(db);
+        }
     }
 
 

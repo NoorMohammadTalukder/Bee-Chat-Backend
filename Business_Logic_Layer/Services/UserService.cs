@@ -36,19 +36,7 @@ namespace Business_Logic_Layer.Services
             return data;
         }
 
-        public static bool Login(UserModel obj)
-        {
-            var data = new Mapper(new MapperConfiguration(cfg => cfg.CreateMap<UserModel, User>())).Map<User>(obj);
-            try
-            {
-                var x=DataAccess.GetUserDataAccess().Login(data);
-                return x;
-            }
-            catch
-            {
-                return false;
-            }
-        }
+       
 
         public static bool x()
         {

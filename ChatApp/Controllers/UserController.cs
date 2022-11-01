@@ -33,15 +33,34 @@ namespace ChatApp.Controllers
 
         [Route("api/login/user")]
         [HttpPost]
-        public HttpResponseMessage Login(UserModel obj)
+        public HttpResponseMessage Login(UserModel obj )
         {
-            var data = UserService.Login(obj);
-            if (data == true)
+            //return Request.CreateResponse(HttpStatusCode.OK,"nfjdnbf");
+            var data = AuthService.Login(obj.Email);
+            if (data !=null)
             {
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
-            return Request.CreateResponse(HttpStatusCode.NotFound);
+            return Request.CreateResponse(HttpStatusCode.NotFound,"Not Found");
         }
+
+        // [Route("api/login/user/get/{email})]
+         [Route("api/login/user/{email}/")]
+        [HttpGet]
+        public HttpResponseMessage GetUser(string email )
+        {
+            //return Request.CreateResponse(HttpStatusCode.OK,"nfjdnbf");
+            var data = AuthService.Login(email);
+            if (data !=null)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            return Request.CreateResponse(HttpStatusCode.NotFound,"Not Found");
+        }
+
+
+
+
 
 
         [Route("api/create/messsage/user")]

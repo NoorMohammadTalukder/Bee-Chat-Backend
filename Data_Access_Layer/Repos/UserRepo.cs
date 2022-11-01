@@ -55,17 +55,18 @@ namespace Data_Access_Layer.Repos
         }
 
 
-        public bool Login(User obj)
+       /* public string Login(string email)
         {
-            var x = db.Users.FirstOrDefault(e => e.Email == obj.Email);
+            var x = db.Users.FirstOrDefault(e => e.Email == email);
             if (x != null) {
-                return true;
+                return email;
             }
             else
             {
-                return false;
+                return "";
             }
                 
         }
+       */
     }
 }
