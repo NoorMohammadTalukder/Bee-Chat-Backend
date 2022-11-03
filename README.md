@@ -25,7 +25,7 @@ This backend developed in database first approach manner.
 
 <h3>Project Setup: </h3>
 <ul>
-  <li>Download >Visual Studio 2019 (Community edition) from <a href="https://visualstudio.microsoft.com/vs/older-downloads/">here</a> </li>
+  <li>Download Visual Studio 2019 (Community edition) from <a href="https://visualstudio.microsoft.com/vs/older-downloads/">here</a> </li>
   <li>Download MS SQL Server version:15.0.2095 from <a href="https://sqlserverbuilds.blogspot.com/2019/01/sql-server-2019-versions.html">here</a></li>
   <li>Download the data base from <a href="https://drive.google.com/file/d/110hRd45ckprJGE10dUB7faNyWYGOFGlK/view?usp=sharing">here</a> and import it in MS SQL Server   </li>
   <li>Download the zip code from <a href="https://github.com/NoorMohammadTalukder/Bee-Chat-Backend/archive/refs/heads/main.zip">here</a> and unzip it and run the code   using MS Studio in local host  </li>
