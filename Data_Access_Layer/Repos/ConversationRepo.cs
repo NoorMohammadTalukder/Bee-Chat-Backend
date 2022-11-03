@@ -33,7 +33,10 @@ namespace Data_Access_Layer.Repos
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var x = db.Conversations.FirstOrDefault(e => e.Id == id);
+            db.Conversations.Remove(x);
+            db.SaveChanges();
+            return true;
         }
 
         public List<Conversation> Get()

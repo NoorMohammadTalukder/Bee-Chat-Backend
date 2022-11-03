@@ -51,6 +51,10 @@ namespace Business_Logic_Layer.Services
                                 where (i.UserId == id1  || i.UserId2==id1) && (i.UserId == id2 || i.UserId2 == id2)
 
                                 select i).ToList();
+          //  var data2 = new Mapper(new MapperConfiguration(cfg => cfg.CreateMap<User, UserModel>())).Map<List<UserModel>>(DataAccess.GetUserDataAccess().Get());
+            
+           // var name=(from i in data2 where i.Id==id1 select i.)
+            
             return messges;
         }
 
@@ -71,6 +75,13 @@ namespace Business_Logic_Layer.Services
                 return false;
             }
 
+        }
+
+
+        public static bool DeleteChat(int id)
+        {
+            DataAccess.GetConversationDataAccess().Delete(id);
+            return true;
         }
 
     }

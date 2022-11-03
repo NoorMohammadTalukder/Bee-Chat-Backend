@@ -81,5 +81,14 @@ namespace ChatApp.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
 
         }
+
+        [Route("api/delete/chat/{id}")]
+        [HttpGet]
+        public HttpResponseMessage DeleteInstitution(int id)
+        {
+            bool data = UserService.DeleteChat(id);
+            return Request.CreateResponse(data ? true : false);
+
+        }
     }
 }
